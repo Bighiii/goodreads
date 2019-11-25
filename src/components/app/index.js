@@ -12,7 +12,7 @@ class App extends Component{
     }
   }
 
-  onChange = event => {
+  onChange = (event) => {
     console.log(event.target.value)
     this.setState({searchTerm : event.target.value})
   }
